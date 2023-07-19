@@ -34,7 +34,7 @@ const TodoList = () => {
 
   return (
     <section className="bg-full">
-      <div className="flex justify-center px-6 py-8 mx-auto md:h-screen ">
+      <div className="flex justify-center px-6 py-8 mx-auto xs:h-screen ">
         <div className="max-w-sm w-full shadow-lg bg-white p-8 rounded-xl opacity-70 overflow-scroll">
           <div className="flex justify-center cursor-default bg-gray-200 rounded-3xl px-4 py-1 color-gray hover:scale-110 transition-all">
             <div className="w-full p-3">
