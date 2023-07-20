@@ -33,9 +33,9 @@ const TodoList = () => {
   };
 
   return (
-    <section className="bg-full xs:h-screen overflow-scroll">
-      <div className="flex justify-center px-6 py-8 mx-auto md:h-screen overflow-scroll ">
-        <div className="max-w-sm w-full shadow-lg bg-white p-8 rounded-xl opacity-70 overflow-scroll">
+    <section className="bg-full xs:h-screen overflow-y-auto">
+      <div className="flex justify-center px-6 py-8 mx-auto md:h-screen overflow-y-auto ">
+        <div className="max-w-sm w-full shadow-lg bg-white p-8 rounded-xl opacity-70 overflow-y-auto">
           <div className="flex justify-center cursor-default bg-gray-200 rounded-3xl px-4 py-1 color-gray hover:scale-110 transition-all">
             <div className="w-full p-3">
               <h1 className="text-3xl text-black-600 font-black">To do List</h1>
